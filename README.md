@@ -2,6 +2,8 @@
 
 # OBSIDIAN-6 · by Antarikfox
 
+[![Install OBSIDIAN-6 in Home Assistant](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Antarikfox&repository=obsidian-6-card&category=plugin)
+
 [Русский](README.ru.md)
 
 A six-tube IN-1 Nixie clock with amber illumination and a static biomechanical case. Available as a Home Assistant dashboard card and a standalone offline HTML file.

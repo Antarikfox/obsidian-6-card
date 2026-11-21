@@ -2,6 +2,8 @@
 
 # OBSIDIAN-6 · by Antarikfox
 
+[![Install OBSIDIAN-6 in Home Assistant](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Antarikfox&repository=obsidian-6-card&category=plugin)
+
 [English](README.md)
 
 Часы с шестью индикаторами ИН-1, янтарным свечением и статичным биомеханическим корпусом.

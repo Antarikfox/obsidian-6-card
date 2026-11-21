@@ -27,19 +27,13 @@
 
 GitHub: **Settings → General → Social preview → Edit → Upload an image**. Выбери `docs/social-preview.jpg` из локального комплекта (1280×640, менее 1 МБ). Это отдельная обложка для соцсетей и мессенджеров, а не фотография внутри README.
 
-## 4. Первый релиз
+## 4. Релиз v7.6.0 опубликован
 
-Открой **Releases → Draft a new release → Choose a tag**, создай тег `v7.6.0` на ветке `main`.
+Релиз [OBSIDIAN-6 v7.6.0](https://github.com/Antarikfox/obsidian-6-card/releases/tag/v7.6.0) выпущен с тегом `v7.6.0`; внутри находится самодостаточный модуль `obsidian-6-card.js`.
 
-**Release title:** `OBSIDIAN-6 v7.6.0`
+Действующий workflow `.github/workflows/publish-release.yml` запускается при первом добавлении файла либо вручную через Actions → Publish OBSIDIAN-6 v7.6.0 → Run workflow. Он проверяет `npm test` и публикует JS-модуль. Повторный запуск не создаёт дубликата релиза. Для следующей версии потребуется обновить номер версии в `package.json`, релизных заметках и workflow.
 
-**Release notes:** перенеси пункты из `CHANGELOG.md`.
-
-При желании прикрепи два файла из локального комплекта:
-- `dist/obsidian-6-card.js`
-- `standalone/OBSIDIAN-6.html`
-
-Нажми **Publish release**. Для пользовательского HACS GitHub Release необязателен: HACS может брать файлы из ветки по умолчанию.
+**Проверка HACS для включения в общий каталог:** настрой Topics через значок шестерёнки в About репозитория. Укажи `home-assistant`, `hacs`, `nixie-clock`, `custom-card`. Также HACS требует лицензию, одобренную Open Source Initiative. Пока автор не определил лицензию для исходников и отдельно права на иллюстрации, её намеренно нет, а строгая проверка HACS показывает ошибку. Не выдавай права на графику случайно.
 
 ## 5. Проверить HACS
 
