@@ -53,6 +53,10 @@ Set `language` to `en`, `ru`, `de`, `it`, `fr`, `zh` or `ja` to specify a card l
 
 Clock, date, countdown and stopwatch. Glass reflections, textured glow and brightness can be adjusted separately. Cathode protection runs a ten-digit sweep in clock and date modes every 15 minutes while the display is lit. **Cycle cathodes** starts a manual sweep.
 
+## License and original artwork
+
+The **program code** is open source under the [MIT License](LICENSE) (© 2026 Antarikfox). Original clock illustrations and associated decorative images are **not** under MIT. You can install and use the original bundled clock, but do not extract or reuse the artwork independently without permission. The same applies to images embedded inside the generated JavaScript and HTML. See [Artwork Rights](ARTWORK-LICENSE.md).
+
 ## Build
 
 Requires Node.js 22. Run `npm run build` to rebuild both entry points from `src/` and `assets/`. Run `npm test` to verify build freshness, translations and clock logic. No packages need to be installed.
