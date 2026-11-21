@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.6.1
+
+- Added MIT license for the code and separate protection of original Antarikfox artwork.
+- Added Home Assistant Marketplace/HACS compatibility guidance and one-click installation.
+- Published verified HACS-compatible release packaging. No clock UI or functionality changes.
+
 ## 7.6.0
 
 - Localized the standalone settings, Home Assistant card and card editor in English, Russian, German, Italian, French, Simplified Chinese and Japanese.

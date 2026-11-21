@@ -37,7 +37,7 @@ Open HACS → **Custom repositories**, paste the same GitHub URL and choose cate
 
 ### Manual installation
 
-Copy [obsidian-6-card.js](dist/obsidian-6-card.js) into `/config/www/`. In **Settings → Dashboards → Resources**, add or replace the module resource with `/local/obsidian-6-card.js?v=7.6.0`. Load one OBSIDIAN-6 resource per dashboard. Reload and add:
+Copy [obsidian-6-card.js](dist/obsidian-6-card.js) into `/config/www/`. In **Settings → Dashboards → Resources**, add or replace the module resource with `/local/obsidian-6-card.js?v=7.6.1`. Load one OBSIDIAN-6 resource per dashboard. Reload and add:
 
 ```yaml
 type: custom:obsidian-6-card
