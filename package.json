@@ -1,0 +1,10 @@
+{
+  "name": "obsidian-6-card",
+  "version": "7.6.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/build.mjs --check && node --check dist/obsidian-6-card.js && node --test scripts/check.mjs"
+  }
+}

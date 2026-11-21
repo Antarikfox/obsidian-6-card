@@ -1,0 +1,70 @@
+key	en	ru	de	it	fr	zh	ja
+language	Language	Язык	Sprache	Lingua	Langue	语言	言語
+automatic	Automatic	Автоматически	Automatisch	Automatico	Automatique	自动	自動
+clock	Clock (HH:MM:SS)	Часы (ЧЧ:ММ:СС)	Uhr (HH:MM:SS)	Orologio (HH:MM:SS)	Horloge (HH:MM:SS)	时钟（时:分:秒）	時計（時:分:秒）
+date	Date (DD:MM:YY)	Дата (ДД:ММ:ГГ)	Datum (TT:MM:JJ)	Data (GG:MM:AA)	Date (JJ:MM:AA)	日期（日:月:年）	日付（日:月:年）
+timer	Countdown timer	Таймер обратного отсчёта	Countdown	Conto alla rovescia	Compte à rebours	倒计时	カウントダウン
+stopwatch	Stopwatch	Секундомер	Stoppuhr	Cronometro	Chronomètre	秒表	ストップウォッチ
+localTime	System local time	Системное время	Lokale Systemzeit	Ora locale del sistema	Heure locale du système	系统本地时间	システムのローカル時刻
+moscow	Moscow	Москва	Moskau	Mosca	Moscou	莫斯科	モスクワ
+warsaw	Warsaw	Варшава	Warschau	Varsavia	Varsovie	华沙	ワルシャワ
+utc	Coordinated Universal Time	Всемирное координированное время	Koordinierte Weltzeit	Tempo coordinato universale	Temps universel coordonné	协调世界时	協定世界時
+london	London	Лондон	London	Londra	Londres	伦敦	ロンドン
+newYork	New York	Нью-Йорк	New York	New York	New York	纽约	ニューヨーク
+tokyo	Tokyo	Токио	Tokio	Tokyo	Tokyo	东京	東京
+noEntity	No linked entity	Без привязки к сущности	Keine Entität verknüpft	Nessuna entità collegata	Aucune entité associée	未关联实体	エンティティ未連携
+localControl	Local control	Локальное управление	Lokale Steuerung	Controllo locale	Commande locale	本地控制	ローカル操作
+openList	Open list	Открыть список	Liste öffnen	Apri elenco	Ouvrir la liste	打开列表	リストを開く
+unselected	Not selected	Не выбрано	Nichts ausgewählt	Nessuna selezione	Aucune sélection	未选择	未選択
+noMatches	No matches	Совпадений нет	Keine Treffer	Nessun risultato	Aucun résultat	未找到匹配项	該当なし
+clockAlt	OBSIDIAN-6 clock with six IN-1 Nixie tubes	Часы OBSIDIAN-6 с шестью индикаторами ИН-1	OBSIDIAN-6-Uhr mit sechs IN-1-Nixie-Röhren	Orologio OBSIDIAN-6 con sei tubi Nixie IN-1	Horloge OBSIDIAN-6 à six tubes Nixie IN-1	带六支 IN-1 辉光管的 OBSIDIAN-6 时钟	IN-1ニキシー管6本を備えたOBSIDIAN-6時計
+settings	OBSIDIAN-6 settings	Настройки OBSIDIAN-6	OBSIDIAN-6-Einstellungen	Impostazioni OBSIDIAN-6	Réglages OBSIDIAN-6	OBSIDIAN-6 设置	OBSIDIAN-6の設定
+settingsFox	Open settings using the fox logo	Открыть настройки через логотип лисы	Einstellungen über das Fuchslogo öffnen	Apri le impostazioni dal logo della volpe	Ouvrir les réglages via le logo du renard	通过狐狸标志打开设置	キツネのロゴから設定を開く
+settingsTitle	Open settings using the title	Открыть настройки через название	Einstellungen über den Titel öffnen	Apri le impostazioni dal titolo	Ouvrir les réglages via le titre	通过标题打开设置	タイトルから設定を開く
+close	Close settings	Закрыть настройки	Einstellungen schließen	Chiudi impostazioni	Fermer les réglages	关闭设置	設定を閉じる
+powerGlow	Power and brightness	Питание и свечение	Strom und Helligkeit	Alimentazione e luminosità	Alimentation et luminosité	电源与亮度	電源と明るさ
+power	Power	Питание	Strom	Alimentazione	Alimentation	电源	電源
+protection	Cathode protection	Защита катодов	Kathodenschutz	Protezione dei catodi	Protection des cathodes	阴极保护	カソード保護
+runSweep	Cycle cathodes	Прогнать катоды	Kathoden durchschalten	Avvia ciclo dei catodi	Faire défiler les chiffres	循环点亮阴极	カソードを順に点灯
+brightness	Cathode brightness	Яркость свечения катодов	Kathodenhelligkeit	Luminosità dei catodi	Luminosité des cathodes	阴极亮度	カソードの明るさ
+glassGlow	Glass and glow	Стекло и накал	Glas und Leuchten	Vetro e bagliore	Verre et lueur	玻璃与辉光	ガラスと発光
+night	Night mode	Ночной режим	Nachtmodus	Modalità notturna	Mode nuit	夜间模式	ナイトモード
+reflections	IN-1 glass reflections	Отражения на стекле ИН-1	Reflexionen am IN-1-Glas	Riflessi sul vetro IN-1	Reflets du verre IN-1	IN-1 玻璃反光	IN-1ガラスの反射
+texture	Textured glow	Фактурный накал	Texturiertes Leuchten	Bagliore puntinato	Lueur pointillée	点状辉光	点状発光
+preview	Glow preview	Образец свечения	Vorschau des Leuchtens	Anteprima del bagliore	Aperçu de la lueur	辉光预览	発光プレビュー
+textureHelp	Textured glow lights each digit as a series of dots.	С включённой фактурой катод светится точками.	Beim texturierten Leuchten besteht jede Ziffer aus Lichtpunkten.	Con il bagliore puntinato ogni cifra è composta da punti luminosi.	La lueur pointillée affiche chaque chiffre sous forme de points lumineux.	启用后，每个数字由一系列亮点组成。	点状発光をオンにすると、数字が光の点の連なりで表示されます。
+timeModes	Time and modes	Время и режимы	Zeit und Modi	Ora e modalità	Heure et modes	时间与模式	時刻とモード
+displayMode	Display mode	Режим индикаторов	Anzeigemodus	Modalità di visualizzazione	Mode d’affichage	显示模式	表示モード
+timeFormat	Time format	Формат времени	Zeitformat	Formato orario	Format horaire	时间格式	時刻形式
+timeZone	Time zone	Часовой пояс	Zeitzone	Fuso orario	Fuseau horaire	时区	タイムゾーン
+hours24	24-hour	24 часа	24 Stunden	24 ore	24 heures	24 小时制	24時間制
+hours12	12-hour	12 часов	12 Stunden	12 ore	12 heures	12 小时制	12時間制
+minutes	Minutes	Минуты	Minuten	Minuti	Minutes	分钟	分
+seconds	Seconds	Секунды	Sekunden	Secondi	Secondes	秒	秒
+start	Start	Пуск	Start	Avvia	Démarrer	开始	開始
+pause	Pause	Пауза	Pause	Pausa	Pause	暂停	一時停止
+reset	Reset	Сброс	Zurücksetzen	Azzera	Réinitialiser	重置	リセット
+powerEntity	Power entity	Сущность питания	Strom-Entität	Entità di alimentazione	Entité d’alimentation	电源实体	電源エンティティ
+brightnessEntity	Brightness entity	Сущность яркости	Helligkeits-Entität	Entità di luminosità	Entité de luminosité	亮度实体	明るさのエンティティ
+display	Display	Отображение	Anzeige	Visualizzazione	Affichage	显示	表示
+fullScreen	Full screen	На весь экран	Vollbild	Schermo intero	Plein écran	全屏	全画面
+defaults	Restore defaults	Настройки по умолчанию	Standardwerte wiederherstellen	Ripristina predefiniti	Rétablir les réglages par défaut	恢复默认设置	初期設定に戻す
+reopen	Tap the fox logo or the OBSIDIAN-6 title to reopen settings.	Нажми на лису или OBSIDIAN-6, чтобы вновь открыть настройки.	Tippe auf das Fuchslogo oder den OBSIDIAN-6-Titel, um die Einstellungen erneut zu öffnen.	Tocca il logo della volpe o il titolo OBSIDIAN-6 per riaprire le impostazioni.	Touchez le logo du renard ou le titre OBSIDIAN-6 pour rouvrir les réglages.	点击狐狸标志或 OBSIDIAN-6 标题可重新打开设置。	キツネのロゴかOBSIDIAN-6のタイトルをタップすると、設定を再度開けます。
+defaultsRestored	Default settings restored.	Настройки по умолчанию восстановлены.	Standardwerte wiederhergestellt.	Impostazioni predefinite ripristinate.	Réglages par défaut rétablis.	已恢复默认设置。	初期設定に戻しました。
+commandSent	Command sent to Home Assistant.	Команда отправлена в Home Assistant.	Befehl an Home Assistant gesendet.	Comando inviato a Home Assistant.	Commande envoyée à Home Assistant.	命令已发送至 Home Assistant。	Home Assistantにコマンドを送信しました。
+commandFailed	Could not send the command to Home Assistant.	Не удалось отправить команду в Home Assistant.	Der Befehl konnte nicht an Home Assistant gesendet werden.	Impossibile inviare il comando a Home Assistant.	Impossible d’envoyer la commande à Home Assistant.	无法向 Home Assistant 发送命令。	Home Assistantにコマンドを送信できませんでした。
+brightnessFailed	Could not send brightness to Home Assistant.	Не удалось передать яркость в Home Assistant.	Die Helligkeit konnte nicht an Home Assistant gesendet werden.	Impossibile inviare la luminosità a Home Assistant.	Impossible d’envoyer la luminosité à Home Assistant.	无法向 Home Assistant 发送亮度。	Home Assistantに明るさを送信できませんでした。
+fullscreenFailed	Full screen is unavailable here. Try the browser’s full-screen command.	Полноэкранный режим здесь недоступен. Попробуй открыть его через меню браузера.	Vollbild ist hier nicht verfügbar. Versuche es über das Browsermenü.	Lo schermo intero non è disponibile qui. Prova dal menu del browser.	Le plein écran est indisponible ici. Essayez depuis le menu du navigateur.	此处无法进入全屏。请尝试浏览器菜单中的全屏功能。	ここでは全画面にできません。ブラウザーのメニューからお試しください。
+disabled	Disabled	Выключена	Deaktiviert	Disattivata	Désactivée	已停用	無効
+waitingPower	Waiting for tube power	Ожидает включения ламп	Wartet auf Röhrenstrom	In attesa di alimentazione dei tubi	En attente de l’alimentation des tubes	等待辉光管通电	ニキシー管の点灯待ち
+protectionAvailable	Available in clock and date modes	Доступна в режимах часов и даты	In Uhr- und Datumsmodus verfügbar	Disponibile in modalità orologio e data	Disponible en modes horloge et date	仅在时钟和日期模式下可用	時計・日付モードで使用できます
+sweeping	Cycling cathodes · {digits}	Прогон катодов · {digits}	Kathodendurchlauf · {digits}	Ciclo dei catodi · {digits}	Défilement des chiffres · {digits}	正在循环点亮阴极 · {digits}	カソード点灯中 · {digits}
+nextSweep	Next cycle in {minutes} min	До прогона · {minutes} мин	Nächster Durchlauf in {minutes} Min.	Prossimo ciclo tra {minutes} min	Prochain cycle dans {minutes} min	距下次循环还有 {minutes} 分钟	次の点灯まで {minutes} 分
+editor	Card editor	Редактор карточки	Karteneditor	Editor della scheda	Éditeur de carte	卡片编辑器	カードエディター
+editorHint	Tap the fox logo or title on the card to open its settings.	Нажми на лису или название на карточке, чтобы открыть настройки.	Tippe auf das Fuchslogo oder den Titel auf der Karte, um die Einstellungen zu öffnen.	Tocca il logo della volpe o il titolo sulla scheda per aprire le impostazioni.	Touchez le logo du renard ou le titre sur la carte pour ouvrir les réglages.	点击卡片上的狐狸标志或标题可打开设置。	カードのキツネのロゴかタイトルをタップすると設定が開きます。
+identifier	Title / identifier	Название / идентификатор	Titel / Kennung	Titolo / identificatore	Titre / identifiant	标题 / 标识符	タイトル／識別子
+initialBrightness	Initial brightness	Начальная яркость	Anfangshelligkeit	Luminosità iniziale	Luminosité initiale	初始亮度	初期の明るさ
+description	Amber IN-1 Nixie clock with a biomechanical case	Часы ИН-1 с янтарным свечением и биомеханическим корпусом	IN-1-Nixie-Uhr mit bernsteinfarbenem Leuchten und biomechanischem Gehäuse	Orologio Nixie IN-1 con bagliore ambrato e cassa biomeccanica	Horloge Nixie IN-1 à lueur ambrée et boîtier biomécanique	带琥珀色 IN-1 辉光管和生物机械外壳的时钟	琥珀色のIN-1ニキシー管とバイオメカ筐体の時計
+on	On	Вкл.	An	Acceso	Activé	开	オン
+off	Off	Выкл.	Aus	Spento	Désactivé	关	オフ
+systemLabel	Chronometric control system	Система управления часами	Chronometrisches Steuersystem	Sistema di controllo cronometrico	Système de commande chronométrique	时钟控制系统	時計制御システム
