@@ -16,9 +16,22 @@ Download [OBSIDIAN-6.html](standalone/OBSIDIAN-6.html) and open it directly in a
 
 ## Home Assistant
 
-### HACS
+### Home Assistant 2026.11+ (built-in Marketplace)
 
-Add the repository as a custom repository with category **Dashboard**, install **OBSIDIAN-6**, and reload the dashboard. The repository name for this bundle is `obsidian-6-card`. See the [HACS dashboard packaging guide](https://hacs.dev/docs/publish/plugin/).
+Open **Settings → Marketplace → Add from link**, and paste the public repository URL:
+
+`https://github.com/Antarikfox/obsidian-6-card`
+
+Install the **Dashboard** card and reload the browser. The Marketplace uses the bundled JavaScript release asset and usually registers the dashboard resource automatically. If dashboard resources are managed in YAML, add the resource yourself:
+
+```yaml
+url: /local/community/obsidian-6-card/obsidian-6-card.js
+type: module
+```
+
+### HACS (Home Assistant versions before 2026.11)
+
+Open HACS → **Custom repositories**, paste the same GitHub URL and choose category **Dashboard**. Install OBSIDIAN-6 and reload the browser. HACS serves the module from `/hacsfiles/obsidian-6-card/obsidian-6-card.js` and normally adds the resource automatically.
 
 ### Manual installation
 
@@ -42,4 +55,4 @@ Clock, date, countdown and stopwatch. Glass reflections, textured glow and brigh
 
 Requires Node.js 22. Run `npm run build` to rebuild both entry points from `src/` and `assets/`. Run `npm test` to verify build freshness, translations and clock logic. No packages need to be installed.
 
-See [the publishing checklist](docs/PUBLISH.ru.md) before the first GitHub release.
+[Release notes](RELEASE_NOTES.md) · [Публикация и установка (RU)](docs/PUBLISH.ru.md)

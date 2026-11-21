@@ -12,9 +12,15 @@
 
 ## Запуск
 
-- **Браузер.** Скачай [OBSIDIAN-6.html](standalone/OBSIDIAN-6.html) и открой в браузере. Интернет для работы не нужен.
-- **HACS.** Добавь репозиторий `obsidian-6-card` как пользовательский репозиторий категории **Панель / Dashboard** и установи карточку.
-- **Home Assistant вручную.** Скопируй [obsidian-6-card.js](dist/obsidian-6-card.js) в `/config/www/`. В **Настройки → Панели → Ресурсы** добавь или замени модуль на `/local/obsidian-6-card.js?v=7.6.0`. Перезагрузи интерфейс. Подключай одну версию ресурса.
+**Home Assistant 2026.11 и новее (Магазин / Marketplace):** открой **Настройки → Магазин → Добавить по ссылке (Add from link)**, вставь `https://github.com/Antarikfox/obsidian-6-card`, установи карточку из категории **Dashboard** и обнови страницу. Магазин обычно сам подключает ресурс JavaScript. Если ресурсы настраиваются вручную в YAML, добавь `/local/community/obsidian-6-card/obsidian-6-card.js` как модуль.
+
+**Старые версии Home Assistant (HACS):** открой **HACS → Пользовательские репозитории (Custom repositories)**, укажи тот же адрес, выбери категорию **Dashboard / Панель**, установи и обнови страницу. Стандартный адрес ресурса HACS: `/hacsfiles/obsidian-6-card/obsidian-6-card.js` (обычно подключается автоматически).
+
+**Автономная версия:** скачай [OBSIDIAN-6.html](standalone/OBSIDIAN-6.html) и открой в браузере, без интернета.
+
+**Ручная установка:** скопируй [obsidian-6-card.js](dist/obsidian-6-card.js) в `/config/www/`. В **Настройки → Панели → Ресурсы** добавь модуль `/local/obsidian-6-card.js?v=7.6.0`. Не подключай один и тот же модуль дважды.
+
+Пример карточки:
 
 ```yaml
 type: custom:obsidian-6-card
@@ -32,4 +38,4 @@ brightness: 82
 
 Для сборки нужен Node.js 22. Команда `npm run build` обновляет готовую карточку и автономную страницу. Команда `npm test` проверяет сборки, переводы и логику часов. Устанавливать зависимости не нужно.
 
-[Чек-лист публикации](docs/PUBLISH.ru.md)
+[Описание релиза](RELEASE_NOTES.md) · [Инструкция по публикации](docs/PUBLISH.ru.md)

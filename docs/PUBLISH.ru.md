@@ -1,5 +1,9 @@
 # Публикация OBSIDIAN-6 на GitHub
 
+> **Обновление 21.11.2026:** начиная с Home Assistant 2026.11, HACS встроен в систему под названием **Магазин (Marketplace)**. Новая установка: Настройки → Магазин → Добавить по ссылке → `https://github.com/Antarikfox/obsidian-6-card`. Для версий до 2026.11 действует инструкция HACS ниже.
+
+> Релиз `v7.6.0` выпускается автоматически workflow `.github/workflows/publish-release.yml` после прохождения `npm test`. Для проверки репозитория по правилам HACS включён `.github/workflows/hacs-validation.yml`. Добавь в GitHub Topics хотя бы `home-assistant`, `hacs`, `nixie-clock`, `custom-card`: без тем строгая проверка HACS не пройдёт.
+
 ## 1. Создать пустой репозиторий
 
 1. Открой [github.com/new](https://github.com/new) под своим аккаунтом.
